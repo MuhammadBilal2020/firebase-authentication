@@ -1,3 +1,159 @@
 .head{
     text-align: center ;
 }
+
+
+
+.main{
+    width: 800px;
+  margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+
+
+#former{
+    text-align: center;
+   width: 700px;
+   margin: 0 auto;
+
+}
+
+.tudos{
+    width: 400px;
+    padding: .6rem .8rem;
+    text-align: center;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.195);
+    font-size: 1.3rem;
+    color: white;
+    font-family: cursive;
+
+
+}
+
+#cities{
+    width: 120px;
+    padding: .6rem .8rem;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.195);
+    font-size: 1.3rem;
+    color: orange;
+    font-family: cursive;
+
+
+
+}
+option{
+    background-color: black;
+}
+
+.add-tudo{
+    width: 6rem;
+    padding: .6rem .8rem;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.195);
+    font-size: 1.3rem;
+    font-family: cursive;
+    color: white;
+
+
+}
+
+:hover.add-tudo{
+    background-color: rgba(255, 255, 255, 0.441);
+cursor: pointer;
+}
+
+
+
+
+/* all buttons  */
+
+.all-buttons{
+    width: 700px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+
+.fltrCities{
+    width: 7rem;
+    padding: .6rem .8rem;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.195);
+    font-size: 1.3rem;
+    font-family: cursive;
+    color: white;
+}
+
+
+:hover.fltrCities{
+    background-color: rgba(255, 255, 255, 0.441);
+cursor: pointer;
+
+
+}
+
+#reset{
+    width: 7rem;
+    padding: .6rem .8rem;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.195);
+    font-size: 1.3rem;
+    font-family: cursive;
+    color: white;
+}
+
+:hover#reset{
+    background-color: rgba(255, 255, 255, 0.441);
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.ul{
+    width: 700px;
+    margin: 2rem auto;
+    text-align: center;
+    
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+.delete{
+    
+}
+
+
+#logout{
+    width: 7rem;
+    padding: .6rem .8rem;
+    border: 0px;
+    border-radius: 3px;
+    background-color: red;
+    font-size: 1.3rem;
+    font-family: cursive;
+    color: white; 
+}
+
+
+:hover#logout{
+    background-color: rgba(255, 0, 0, 0.675);
+cursor: pointer;
+}

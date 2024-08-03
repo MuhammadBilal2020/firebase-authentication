@@ -7,16 +7,43 @@
     <title>Home</title>
 </head>
 <body>
-    <h1 class="head">Home</h1>
+    <h1 class="head">Add Todos</h1>
 
 
-<form id="former" >
-<input type="text" placeholder="enter tudos"  class="tudos">
+<div class="main">
+    <form id="former" >
+        <input type="text" placeholder="enter tudos"  class="tudos">
+        <select id="cities" >
+            <option >karachi</option>
+            <option >lahore</option>
+            <option >islamabad</option>
+            <option >pehsawar</option>
+            <option >multan</option>
+        
+        
+        </select>
+        <button type="submit"  class="add-tudo">Add </button>
+        
+        </form>
+        
+     
+        
 
-<button type="submit"  class="add-tudo">add </button>
+        <div class="all-buttons">
+            <button class="fltrCities">karachi</button>
+        <button class="fltrCities">lahore</button>
+        <button class="fltrCities">islamabad</button>
+        <button class="fltrCities">pehsawar</button>
+        <button class="fltrCities">multan</button>
+        <br> <br> <br>
+        <button id="reset">reset</button>
+        </div>
+        
+        
+        
+        <div class="ul"></div>
+</div>
 
-</form>
-<ul class="ul"></ul>
 
 
 

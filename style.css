@@ -1,13 +1,44 @@
+body{
+    background-image: url('bcg\ of\ tudo\ 5.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+}
 .head{
     text-align: center ;
+    color: white;
 }
+
+#logout{
+    width: 7rem;
+    padding: .4rem .8rem;
+    border: 0px;
+    border-radius: 3px;
+    background-color: red;
+    font-size: 1.2rem;
+    font-family: cursive;
+    color: white; 
+}
+
+
+:hover#logout{
+    background-color: rgba(255, 0, 0, 0.675);
+cursor: pointer;
+}
+
 
 
 
 .main{
     width: 800px;
   margin: 0 auto;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     padding: 1rem;
 }
@@ -128,32 +159,98 @@ cursor: pointer;
 .ul{
     width: 700px;
     margin: 2rem auto;
-    text-align: center;
+    /* text-align: center; */
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html in js styling  */
+
+/* delete btn  */
+
 
 p{
-    font-size: 1.4rem;
+    margin: 0px;
 }
+
+.para-div{
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    width: 600px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 0px;
+    border-radius: 2px;
+
+}
+
+.ps{
+   
+}
+
+.items{
+    width: 300px;
+}
+
+
 
 .delete{
-    
-}
-
-
-#logout{
-    width: 7rem;
-    padding: .6rem .8rem;
+    width: 4rem;
+    padding: .2rem .4rem;
     border: 0px;
-    border-radius: 3px;
-    background-color: red;
-    font-size: 1.3rem;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
+    font-size: 1.1rem;
     font-family: cursive;
     color: white; 
 }
 
-
-:hover#logout{
-    background-color: rgba(255, 0, 0, 0.675);
+:hover.delete{
+    background-color: rgba(255, 0, 0, 0.27);
 cursor: pointer;
+}
+
+
+.edit{
+    width: 4rem;
+    padding: .2rem .4rem;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(0, 221, 255);
+    font-size: 1.1rem;
+    font-family: cursive;
+    color: white; 
+}
+
+:hover.edit{
+background-color: rgba(0, 221, 255, 0.467);
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* utility  */
+.t-start{
+    text-align: start;
 }

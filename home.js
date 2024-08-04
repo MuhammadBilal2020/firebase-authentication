@@ -86,12 +86,14 @@ function render() {
   ul.innerHTML = ""
   arr.map((items) => {
 
-    ul.innerHTML += `<p> ${items.todos}
-    (${items.city})
+    ul.innerHTML += `<div class = "para-div" > <p class = "ps"> <div class = "items">  ${items.todos}
+    (${items.city}) </div>
+    &nbsp; &nbsp;
+<div>
     <button class = "delete" >delete</button>
     <button class = "edit">edit</button>
-
-    </p> `
+</div>
+    </p> </div>`
 
   })
 
